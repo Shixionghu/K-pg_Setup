@@ -1,0 +1,4 @@
+fsurdat = '/glade/work/crtabor/paleo_setup/paleo_toolkit_2020/cesm1_2/lnd/70Ma_FV2/sewall_remap/take_3/surfdata_96x144_MAA_c211115_sewall_out_revised_4.nc'
+stream_fldfilename_ndep = '/glade/work/crtabor/paleo_setup/paleo_toolkit_2020/cesm1_2/atm/70Ma_FV2/cam4_aero/MAA_mozart/fndep_clm_hist_simyr1849-2006_1.9x2.5_c100428.mod_dep.nc'
+urban_hac = 'OFF'
+!calendar = 'NO_LEAP'
