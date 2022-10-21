@@ -1,0 +1,36 @@
+overflows_on = .false.
+overflows_interactive = .false.
+
+init_ts_file_fmt = 'nc'
+
+! manually set this for all restarts after first submission
+! init_ts_option = 'ccsm_continue'
+
+horiz_grid_file = '/glade/work/crtabor/paleo_setup/paleo_toolkit_2020/cesm1_2/ocn/70Ma_1d/mk_ocn_grid/grid.1.pop.da'
+region_mask_file  = '/glade/work/crtabor/paleo_setup/paleo_toolkit_2020/cesm1_2/ocn/70Ma_1d/mk_ocninput/region.MAA.be.ieeei4'
+topography_file = '/glade/work/crtabor/paleo_setup/paleo_toolkit_2020/cesm1_2/ocn/70Ma_1d/mk_ocn_grid/kmt.1m.da'
+region_info_file = '/glade/work/crtabor/paleo_setup/paleo_toolkit_2020/cesm1_2/ocn/70Ma_1d/mk_ocninput/region_ids_MAA'
+diag_transport_file = '/glade/work/crtabor/paleo_setup/paleo_toolkit_2020/cesm1_2/ocn/70Ma_1d/mk_ocninput/transport_contents_MAA'
+lat_aux_begin = -90.0
+lat_aux_end = 90.0
+lat_aux_grid_type = 'southern'
+n_lat_aux_grid = 180
+moc_requested = .false.
+n_heat_trans_requested = .false.
+n_salt_trans_requested = .false.
+n_transport_reg = 1
+transport_reg2_names = ''
+dt_count = 70
+lhoriz_varying_bckgrnd = .false.
+ldiag_velocity = .false.
+ltidal_mixing = .false.
+bckgrnd_vdc1 = 0.524
+bckgrnd_vdc2 = 0.313
+sw_absorption_type = 'jerlov'
+jerlov_water_type = 3
+chl_option = 'file'
+chl_filename = 'unknown-chl'
+chl_file_fmt = 'bin'
+estuary_option          = 'on'
+estuary_type            = 'vsf_ebm'
+ebm_param_option        = 'internal'
