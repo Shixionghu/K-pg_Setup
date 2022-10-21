@@ -1,5 +1,5 @@
 # K-pg_Setup
-K-Pg boundary condition setup
+K-Pg boundary condition setup  
 Note: the case is located at `/glade/work/shixiongh/cases/kpg_waccm_test_v1`
 After compared with the configuration that Clay proposed, we made below changes:
 - ncdata = 'cw4_mi_cntrl.cam.i.0004-01-01-00000.nc' 
