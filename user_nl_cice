@@ -1,3 +1,0 @@
-grid_file = '/glade/work/crtabor/paleo_setup/paleo_toolkit_2020/cesm1_2/ocn/70Ma_1d/mk_ocn_grid/grid.1.pop.da'
-kmt_file  = '/glade/work/crtabor/paleo_setup/paleo_toolkit_2020/cesm1_2/ocn/70Ma_1d/mk_ocn_grid/kmt.1m.da'
-ice_ic = 'none'
