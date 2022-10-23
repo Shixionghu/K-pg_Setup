@@ -1,13 +1,12 @@
 # K-pg_Setup
 K-Pg boundary condition setup  
 
-Note: the case is located at `/glade/work/shixiongh/cases/kpg_waccm_test_v1`  
+Note: the case is located at `/glade/work/shixiongh/cases/kpg_waccm_test_clone`  
 After compared with the configuration that Clay proposed, we made below changes:
 - ncdata = 'cw4_mi_cntrl.cam.i.0004-01-01-00000.nc' 
 - comment the `prescribed_ozone_nl` module
-- set `ext_frc_specifier = ''` 
-- comment the `tropopause_climo_file` 
+- set `ext_frc_specifier = ''`  
 
 With above changes, we could get the case build-up and ready to run.  
 Keep an eye on the issue...  
-Note: I am testing the editted version of `tropopause_climo_file` now... 
+
